@@ -16,6 +16,79 @@ A simple calculator service built with Spring Boot, featuring basic arithmetic o
 - **H2 Database**: In-memory database for development and testing.
 - **JUnit**: Testing framework for unit tests.
 
+## API Endpoints
+```bash
+Example Request for Add:
+curl -X GET "http://localhost:8080/api/calculator/add?a=5&b=3"
+
+Example Response:
+{
+  "id": 1,
+  "operation": "add",
+  "operand1": 5,
+  "operand2": 3,
+  "result": 8
+}
+
+Example Request for Subtract:
+curl -X GET "http://localhost:8080/api/calculator/subtract?a=5&b=3"
+
+Example Response:
+{
+  "id": 2,
+  "operation": "subtract",
+  "operand1": 5,
+  "operand2": 3,
+  "result": 2
+}
+
+Example Request for Multiply:
+curl -X GET "http://localhost:8080/api/calculator/multiply?a=5&b=3"
+
+Example Response:
+{
+  "id": 3,
+  "operation": "multiply",
+  "operand1": 5,
+  "operand2": 3,
+  "result": 15
+}
+
+Example Request for Divide:
+curl -X GET "http://localhost:8080/api/calculator/divide?a=6&b=3"
+
+Example Response:
+{
+  "id": 4,
+  "operation": "divide",
+  "operand1": 6,
+  "operand2": 3,
+  "result": 2
+}
+
+History:
+curl -X GET "http://localhost:8080/api/calculator/history"
+
+Example Response:
+[
+  {
+    "id": 1,
+    "operation": "add",
+    "operand1": 5,
+    "operand2": 3,
+    "result": 8
+  },
+  {
+    "id": 2,
+    "operation": "subtract",
+    "operand1": 5,
+    "operand2": 3,
+    "result": 2
+  }
+  // Additional calculations...
+]
+```
+
 ## Setup and Installation
 
 ### Prerequisites
@@ -26,5 +99,5 @@ A simple calculator service built with Spring Boot, featuring basic arithmetic o
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/anasabbdelrahman/Calculator.git
+git clone https://github.com/your-username/Calculator.git
 cd Calculator

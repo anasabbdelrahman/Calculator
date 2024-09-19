@@ -21,11 +21,14 @@ A simple calculator service built with Spring Boot, featuring basic arithmetic o
 ![Class Diagram](src/main/resources/classDiagram.png)
 
 ## API Endpoints
-```bash
+
 Example Request for Add:
+```bash
 curl -X GET "http://localhost:8080/api/calculator/add?a=5&b=3"
+```
 
 Example Response:
+```bash
 {
   "id": 1,
   "operation": "add",
@@ -33,11 +36,15 @@ Example Response:
   "operand2": 3,
   "result": 8
 }
+```
 
 Example Request for Subtract:
+```bash
 curl -X GET "http://localhost:8080/api/calculator/subtract?a=5&b=3"
+```
 
 Example Response:
+```bash
 {
   "id": 2,
   "operation": "subtract",
@@ -45,11 +52,15 @@ Example Response:
   "operand2": 3,
   "result": 2
 }
+```
 
 Example Request for Multiply:
+```bash
 curl -X GET "http://localhost:8080/api/calculator/multiply?a=5&b=3"
+```
 
 Example Response:
+```bash
 {
   "id": 3,
   "operation": "multiply",
@@ -57,11 +68,15 @@ Example Response:
   "operand2": 3,
   "result": 15
 }
+```
 
 Example Request for Divide:
+```bash
 curl -X GET "http://localhost:8080/api/calculator/divide?a=6&b=3"
+```
 
 Example Response:
+```bash
 {
   "id": 4,
   "operation": "divide",
@@ -69,11 +84,15 @@ Example Response:
   "operand2": 3,
   "result": 2
 }
+```
 
 History:
+```bash
 curl -X GET "http://localhost:8080/api/calculator/history"
+```
 
 Example Response:
+```bash
 [
   {
     "id": 1,

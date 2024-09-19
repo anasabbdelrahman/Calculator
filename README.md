@@ -122,5 +122,5 @@ Example Response:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Calculator.git
+git clone https://github.com/anasabbdelrahman/Calculator.git
 cd Calculator

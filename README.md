@@ -26,5 +26,5 @@ A simple calculator service built with Spring Boot, featuring basic arithmetic o
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Calculator.git
+git clone https://github.com/anasabbdelrahman/Calculator.git
 cd Calculator

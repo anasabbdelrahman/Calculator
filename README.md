@@ -16,6 +16,10 @@ A simple calculator service built with Spring Boot, featuring basic arithmetic o
 - **H2 Database**: In-memory database for development and testing.
 - **JUnit**: Testing framework for unit tests.
 
+## Class Diagram
+
+![Class Diagram](src/main/resources/classDiagram.png)
+
 ## API Endpoints
 ```bash
 Example Request for Add:
